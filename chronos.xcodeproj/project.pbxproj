@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFD73D2D29A73C4200AD3ACE /* chronos Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AFD73D2C29A73C4200AD3ACE /* chronos Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AFD73D3229A73C4200AD3ACE /* chronosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D3129A73C4200AD3ACE /* chronosApp.swift */; };
+		AFD73D3429A73C4200AD3ACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D3329A73C4200AD3ACE /* ContentView.swift */; };
+		AFD73D3629A73C4600AD3ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD73D3529A73C4600AD3ACE /* Assets.xcassets */; };
+		AFD73D3929A73C4600AD3ACE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD73D3829A73C4600AD3ACE /* Preview Assets.xcassets */; };
+		AFD73D4329A73C4700AD3ACE /* chronos_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D4229A73C4700AD3ACE /* chronos_Watch_AppTests.swift */; };
+		AFD73D4D29A73C4700AD3ACE /* chronos_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D4C29A73C4700AD3ACE /* chronos_Watch_AppUITests.swift */; };
+		AFD73D4F29A73C4700AD3ACE /* chronos_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D4E29A73C4700AD3ACE /* chronos_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFD73D2E29A73C4200AD3ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD73D2029A73C4100AD3ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD73D2B29A73C4200AD3ACE;
+			remoteInfo = "chronos Watch App";
+		};
+		AFD73D3F29A73C4700AD3ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD73D2029A73C4100AD3ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD73D2B29A73C4200AD3ACE;
+			remoteInfo = "chronos Watch App";
+		};
+		AFD73D4929A73C4700AD3ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD73D2029A73C4100AD3ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD73D2B29A73C4200AD3ACE;
+			remoteInfo = "chronos Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFD73D5529A73C4700AD3ACE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AFD73D2D29A73C4200AD3ACE /* chronos Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFD73D2629A73C4200AD3ACE /* chronos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chronos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD73D2C29A73C4200AD3ACE /* chronos Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chronos Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD73D3129A73C4200AD3ACE /* chronosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chronosApp.swift; sourceTree = "<group>"; };
+		AFD73D3329A73C4200AD3ACE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFD73D3529A73C4600AD3ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFD73D3829A73C4600AD3ACE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFD73D3E29A73C4700AD3ACE /* chronos Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chronos Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD73D4229A73C4700AD3ACE /* chronos_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chronos_Watch_AppTests.swift; sourceTree = "<group>"; };
+		AFD73D4829A73C4700AD3ACE /* chronos Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chronos Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD73D4C29A73C4700AD3ACE /* chronos_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chronos_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		AFD73D4E29A73C4700AD3ACE /* chronos_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chronos_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFD73D2929A73C4200AD3ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD73D3B29A73C4700AD3ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD73D4529A73C4700AD3ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFD73D1F29A73C4100AD3ACE = {
+			isa = PBXGroup;
+			children = (
+				AFD73D3029A73C4200AD3ACE /* chronos Watch App */,
+				AFD73D4129A73C4700AD3ACE /* chronos Watch AppTests */,
+				AFD73D4B29A73C4700AD3ACE /* chronos Watch AppUITests */,
+				AFD73D2729A73C4200AD3ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFD73D2729A73C4200AD3ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD73D2629A73C4200AD3ACE /* chronos.app */,
+				AFD73D2C29A73C4200AD3ACE /* chronos Watch App.app */,
+				AFD73D3E29A73C4700AD3ACE /* chronos Watch AppTests.xctest */,
+				AFD73D4829A73C4700AD3ACE /* chronos Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD73D3029A73C4200AD3ACE /* chronos Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				AFD73D3129A73C4200AD3ACE /* chronosApp.swift */,
+				AFD73D3329A73C4200AD3ACE /* ContentView.swift */,
+				AFD73D3529A73C4600AD3ACE /* Assets.xcassets */,
+				AFD73D3729A73C4600AD3ACE /* Preview Content */,
+			);
+			path = "chronos Watch App";
+			sourceTree = "<group>";
+		};
+		AFD73D3729A73C4600AD3ACE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFD73D3829A73C4600AD3ACE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFD73D4129A73C4700AD3ACE /* chronos Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD73D4229A73C4700AD3ACE /* chronos_Watch_AppTests.swift */,
+			);
+			path = "chronos Watch AppTests";
+			sourceTree = "<group>";
+		};
+		AFD73D4B29A73C4700AD3ACE /* chronos Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD73D4C29A73C4700AD3ACE /* chronos_Watch_AppUITests.swift */,
+				AFD73D4E29A73C4700AD3ACE /* chronos_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "chronos Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFD73D2529A73C4200AD3ACE /* chronos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD73D5629A73C4700AD3ACE /* Build configuration list for PBXNativeTarget "chronos" */;
+			buildPhases = (
+				AFD73D2429A73C4200AD3ACE /* Resources */,
+				AFD73D5529A73C4700AD3ACE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD73D2F29A73C4200AD3ACE /* PBXTargetDependency */,
+			);
+			name = chronos;
+			productName = chronos;
+			productReference = AFD73D2629A73C4200AD3ACE /* chronos.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AFD73D2B29A73C4200AD3ACE /* chronos Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD73D5229A73C4700AD3ACE /* Build configuration list for PBXNativeTarget "chronos Watch App" */;
+			buildPhases = (
+				AFD73D2829A73C4200AD3ACE /* Sources */,
+				AFD73D2929A73C4200AD3ACE /* Frameworks */,
+				AFD73D2A29A73C4200AD3ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chronos Watch App";
+			productName = "chronos Watch App";
+			productReference = AFD73D2C29A73C4200AD3ACE /* chronos Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFD73D3D29A73C4700AD3ACE /* chronos Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD73D5929A73C4700AD3ACE /* Build configuration list for PBXNativeTarget "chronos Watch AppTests" */;
+			buildPhases = (
+				AFD73D3A29A73C4700AD3ACE /* Sources */,
+				AFD73D3B29A73C4700AD3ACE /* Frameworks */,
+				AFD73D3C29A73C4700AD3ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD73D4029A73C4700AD3ACE /* PBXTargetDependency */,
+			);
+			name = "chronos Watch AppTests";
+			productName = "chronos Watch AppTests";
+			productReference = AFD73D3E29A73C4700AD3ACE /* chronos Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFD73D4729A73C4700AD3ACE /* chronos Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD73D5C29A73C4700AD3ACE /* Build configuration list for PBXNativeTarget "chronos Watch AppUITests" */;
+			buildPhases = (
+				AFD73D4429A73C4700AD3ACE /* Sources */,
+				AFD73D4529A73C4700AD3ACE /* Frameworks */,
+				AFD73D4629A73C4700AD3ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD73D4A29A73C4700AD3ACE /* PBXTargetDependency */,
+			);
+			name = "chronos Watch AppUITests";
+			productName = "chronos Watch AppUITests";
+			productReference = AFD73D4829A73C4700AD3ACE /* chronos Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFD73D2029A73C4100AD3ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AFD73D2529A73C4200AD3ACE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AFD73D2B29A73C4200AD3ACE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AFD73D3D29A73C4700AD3ACE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AFD73D2B29A73C4200AD3ACE;
+					};
+					AFD73D4729A73C4700AD3ACE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AFD73D2B29A73C4200AD3ACE;
+					};
+				};
+			};
+			buildConfigurationList = AFD73D2329A73C4100AD3ACE /* Build configuration list for PBXProject "chronos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFD73D1F29A73C4100AD3ACE;
+			productRefGroup = AFD73D2729A73C4200AD3ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD73D2529A73C4200AD3ACE /* chronos */,
+				AFD73D2B29A73C4200AD3ACE /* chronos Watch App */,
+				AFD73D3D29A73C4700AD3ACE /* chronos Watch AppTests */,
+				AFD73D4729A73C4700AD3ACE /* chronos Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFD73D2429A73C4200AD3ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD73D2A29A73C4200AD3ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD73D3929A73C4600AD3ACE /* Preview Assets.xcassets in Resources */,
+				AFD73D3629A73C4600AD3ACE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD73D3C29A73C4700AD3ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD73D4629A73C4700AD3ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFD73D2829A73C4200AD3ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD73D3429A73C4200AD3ACE /* ContentView.swift in Sources */,
+				AFD73D3229A73C4200AD3ACE /* chronosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD73D3A29A73C4700AD3ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD73D4329A73C4700AD3ACE /* chronos_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD73D4429A73C4700AD3ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD73D4D29A73C4700AD3ACE /* chronos_Watch_AppUITests.swift in Sources */,
+				AFD73D4F29A73C4700AD3ACE /* chronos_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFD73D2F29A73C4200AD3ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD73D2B29A73C4200AD3ACE /* chronos Watch App */;
+			targetProxy = AFD73D2E29A73C4200AD3ACE /* PBXContainerItemProxy */;
+		};
+		AFD73D4029A73C4700AD3ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD73D2B29A73C4200AD3ACE /* chronos Watch App */;
+			targetProxy = AFD73D3F29A73C4700AD3ACE /* PBXContainerItemProxy */;
+		};
+		AFD73D4A29A73C4700AD3ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD73D2B29A73C4200AD3ACE /* chronos Watch App */;
+			targetProxy = AFD73D4929A73C4700AD3ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFD73D5029A73C4700AD3ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFD73D5129A73C4700AD3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AFD73D5329A73C4700AD3ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chronos Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PYH5XH3SJ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = chronos;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.trespies.chronos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AFD73D5429A73C4700AD3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chronos Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PYH5XH3SJ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = chronos;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.trespies.chronos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		AFD73D5729A73C4700AD3ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PYH5XH3SJ7;
+				INFOPLIST_KEY_CFBundleDisplayName = chronos;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.trespies.chronos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AFD73D5829A73C4700AD3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PYH5XH3SJ7;
+				INFOPLIST_KEY_CFBundleDisplayName = chronos;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.trespies.chronos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFD73D5A29A73C4700AD3ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PYH5XH3SJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.trespies.chronos-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chronos Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chronos Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AFD73D5B29A73C4700AD3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PYH5XH3SJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.trespies.chronos-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chronos Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chronos Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		AFD73D5D29A73C4700AD3ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PYH5XH3SJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.trespies.chronos-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "chronos Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AFD73D5E29A73C4700AD3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PYH5XH3SJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "es.trespies.chronos-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "chronos Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFD73D2329A73C4100AD3ACE /* Build configuration list for PBXProject "chronos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD73D5029A73C4700AD3ACE /* Debug */,
+				AFD73D5129A73C4700AD3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD73D5229A73C4700AD3ACE /* Build configuration list for PBXNativeTarget "chronos Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD73D5329A73C4700AD3ACE /* Debug */,
+				AFD73D5429A73C4700AD3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD73D5629A73C4700AD3ACE /* Build configuration list for PBXNativeTarget "chronos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD73D5729A73C4700AD3ACE /* Debug */,
+				AFD73D5829A73C4700AD3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD73D5929A73C4700AD3ACE /* Build configuration list for PBXNativeTarget "chronos Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD73D5A29A73C4700AD3ACE /* Debug */,
+				AFD73D5B29A73C4700AD3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD73D5C29A73C4700AD3ACE /* Build configuration list for PBXNativeTarget "chronos Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD73D5D29A73C4700AD3ACE /* Debug */,
+				AFD73D5E29A73C4700AD3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFD73D2029A73C4100AD3ACE /* Project object */;
+}
