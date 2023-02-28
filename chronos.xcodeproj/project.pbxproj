@@ -15,6 +15,7 @@
 		AFD73D4329A73C4700AD3ACE /* chronos_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D4229A73C4700AD3ACE /* chronos_Watch_AppTests.swift */; };
 		AFD73D4D29A73C4700AD3ACE /* chronos_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D4C29A73C4700AD3ACE /* chronos_Watch_AppUITests.swift */; };
 		AFD73D4F29A73C4700AD3ACE /* chronos_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D4E29A73C4700AD3ACE /* chronos_Watch_AppUITestsLaunchTests.swift */; };
+		AFD73D6029A73E3800AD3ACE /* WKDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D5F29A73E3800AD3ACE /* WKDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		AFD73D4829A73C4700AD3ACE /* chronos Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chronos Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD73D4C29A73C4700AD3ACE /* chronos_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chronos_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		AFD73D4E29A73C4700AD3ACE /* chronos_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chronos_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFD73D5F29A73E3800AD3ACE /* WKDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				AFD73D3329A73C4200AD3ACE /* ContentView.swift */,
 				AFD73D3529A73C4600AD3ACE /* Assets.xcassets */,
 				AFD73D3729A73C4600AD3ACE /* Preview Content */,
+				AFD73D5F29A73E3800AD3ACE /* WKDelegate.swift */,
 			);
 			path = "chronos Watch App";
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD73D3429A73C4200AD3ACE /* ContentView.swift in Sources */,
+				AFD73D6029A73E3800AD3ACE /* WKDelegate.swift in Sources */,
 				AFD73D3229A73C4200AD3ACE /* chronosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

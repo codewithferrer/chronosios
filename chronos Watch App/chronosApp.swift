@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct chronos_Watch_AppApp: App {
+    
+    @WKApplicationDelegateAdaptor var delegate: WKDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
