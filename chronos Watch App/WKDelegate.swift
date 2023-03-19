@@ -17,26 +17,26 @@ class WKDelegate: NSObject, WKApplicationDelegate {
     
     let timer = Timer.publish(every: 1, on: .main, in: .default)
         .autoconnect()
-        .sink {
-            print($0)
+        .sink { _ in
+            //print($0)
         }
     
     func applicationDidBecomeActive() {
-        print("APP active")
+        //print("APP active")
     }
     
     func applicationDidEnterBackground() {
-        print("APP background")
+        //print("APP background")
     }
     
     func applicationDidFinishLaunching() {
-        print("APP finish launching")
+        //print("APP finish launching")
         
-        timer.store(in: &cancellableSet)
+        //timer.store(in: &cancellableSet)
     }
     
     func applicationWillEnterForeground() {
-        print("APP enter foreground")
+        //print("APP enter foreground")
     }
     
 }

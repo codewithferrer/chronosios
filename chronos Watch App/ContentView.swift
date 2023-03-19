@@ -6,16 +6,36 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    
+    @ObservedObject var viewModel = ViewModel()
+    
+    let timer = Timer.publish(every: 1, on: .main, in: .common)
+            .autoconnect()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Spacer()
+            Text(viewModel.remainTime.toMinutesSeconds())
+                .foregroundColor(Color.white)
+                .font(size: .s60, type: .digital)
+            
+            HStack {
+                ButtonView(text: "START") {
+                    viewModel.startCounter()
+                }
+                
+                ButtonView(text: "RESET") {
+                    viewModel.resetCounter()
+                }
+            }.padding(.top, 40)
         }
         .padding()
+        .onReceive(timer) { _ in
+            viewModel.decreaseTime()
+        }
     }
 }
 

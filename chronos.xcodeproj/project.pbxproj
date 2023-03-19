@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF75DEE329C5919F001B2EF4 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF75DEE229C5919F001B2EF4 /* FontExtension.swift */; };
+		AF75DEE729C593DC001B2EF4 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF75DEE529C593DC001B2EF4 /* digital-7.ttf */; };
+		AF75DEE829C593DC001B2EF4 /* dsdigi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF75DEE629C593DC001B2EF4 /* dsdigi.ttf */; };
+		AF75DEEC29C59525001B2EF4 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF75DEEB29C59525001B2EF4 /* ButtonView.swift */; };
+		AF75DEEF29C597C1001B2EF4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF75DEEE29C597C1001B2EF4 /* ViewModel.swift */; };
+		AF75DEF129C598C3001B2EF4 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF75DEF029C598C3001B2EF4 /* Numbers.swift */; };
 		AFD73D2D29A73C4200AD3ACE /* chronos Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AFD73D2C29A73C4200AD3ACE /* chronos Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AFD73D3229A73C4200AD3ACE /* chronosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D3129A73C4200AD3ACE /* chronosApp.swift */; };
 		AFD73D3429A73C4200AD3ACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D3329A73C4200AD3ACE /* ContentView.swift */; };
@@ -57,6 +63,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF75DEE029C59152001B2EF4 /* chronos-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "chronos-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AF75DEE229C5919F001B2EF4 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		AF75DEE529C593DC001B2EF4 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		AF75DEE629C593DC001B2EF4 /* dsdigi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dsdigi.ttf; sourceTree = "<group>"; };
+		AF75DEEB29C59525001B2EF4 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		AF75DEEE29C597C1001B2EF4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AF75DEF029C598C3001B2EF4 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
 		AFD73D2629A73C4200AD3ACE /* chronos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chronos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD73D2C29A73C4200AD3ACE /* chronos Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chronos Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD73D3129A73C4200AD3ACE /* chronosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chronosApp.swift; sourceTree = "<group>"; };
@@ -96,6 +109,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF75DEDA29C59106001B2EF4 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF75DEDB29C5910E001B2EF4 /* fonts */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		AF75DEDB29C5910E001B2EF4 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF75DEE529C593DC001B2EF4 /* digital-7.ttf */,
+				AF75DEE629C593DC001B2EF4 /* dsdigi.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		AF75DEE129C59186001B2EF4 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF75DEE229C5919F001B2EF4 /* FontExtension.swift */,
+				AF75DEF029C598C3001B2EF4 /* Numbers.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		AF75DEE929C59500001B2EF4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AF75DEEA29C5950C001B2EF4 /* components */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AF75DEEA29C5950C001B2EF4 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				AF75DEEB29C59525001B2EF4 /* ButtonView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		AF75DEED29C597AC001B2EF4 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				AF75DEEE29C597C1001B2EF4 /* ViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
 		AFD73D1F29A73C4100AD3ACE = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +183,11 @@
 		AFD73D3029A73C4200AD3ACE /* chronos Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				AF75DEED29C597AC001B2EF4 /* viewmodel */,
+				AF75DEE929C59500001B2EF4 /* view */,
+				AF75DEE129C59186001B2EF4 /* extensions */,
+				AF75DEE029C59152001B2EF4 /* chronos-Watch-App-Info.plist */,
+				AF75DEDA29C59106001B2EF4 /* resources */,
 				AFD73D3129A73C4200AD3ACE /* chronosApp.swift */,
 				AFD73D3329A73C4200AD3ACE /* ContentView.swift */,
 				AFD73D3529A73C4600AD3ACE /* Assets.xcassets */,
@@ -287,6 +355,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD73D3929A73C4600AD3ACE /* Preview Assets.xcassets in Resources */,
+				AF75DEE729C593DC001B2EF4 /* digital-7.ttf in Resources */,
+				AF75DEE829C593DC001B2EF4 /* dsdigi.ttf in Resources */,
 				AFD73D3629A73C4600AD3ACE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +384,10 @@
 			files = (
 				AFD73D3429A73C4200AD3ACE /* ContentView.swift in Sources */,
 				AFD73D6029A73E3800AD3ACE /* WKDelegate.swift in Sources */,
+				AF75DEF129C598C3001B2EF4 /* Numbers.swift in Sources */,
+				AF75DEEC29C59525001B2EF4 /* ButtonView.swift in Sources */,
+				AF75DEE329C5919F001B2EF4 /* FontExtension.swift in Sources */,
+				AF75DEEF29C597C1001B2EF4 /* ViewModel.swift in Sources */,
 				AFD73D3229A73C4200AD3ACE /* chronosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +550,7 @@
 				DEVELOPMENT_TEAM = PYH5XH3SJ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "chronos-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = chronos;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -506,6 +581,7 @@
 				DEVELOPMENT_TEAM = PYH5XH3SJ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "chronos-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = chronos;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
