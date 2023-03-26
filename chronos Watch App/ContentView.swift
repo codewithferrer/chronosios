@@ -10,6 +10,7 @@ import Combine
 
 struct ContentView: View {
     
+    @Environment(\.scenePhase) private var scenePhase
     @ObservedObject var viewModel = ViewModel()
     
     let timer = Timer.publish(every: 1, on: .main, in: .common)
@@ -35,6 +36,25 @@ struct ContentView: View {
         .padding()
         .onReceive(timer) { _ in
             viewModel.decreaseTime()
+        }
+        .onChange(of: scenePhase) { phase in
+            switch phase {
+                case .active:
+                    print(">> active")
+                    viewModel.restoreFromBackground()
+                case .inactive:
+                    print(">> inactive")
+                    break
+                case .background:
+                    print(">> background")
+                    viewModel.prepareForBackground()
+                break
+                default:
+                break
+            }
+        }
+        .onAppear {
+            viewModel.requestPermission()
         }
     }
 }

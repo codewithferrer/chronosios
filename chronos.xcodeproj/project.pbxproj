@@ -13,6 +13,8 @@
 		AF75DEEC29C59525001B2EF4 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF75DEEB29C59525001B2EF4 /* ButtonView.swift */; };
 		AF75DEEF29C597C1001B2EF4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF75DEEE29C597C1001B2EF4 /* ViewModel.swift */; };
 		AF75DEF129C598C3001B2EF4 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF75DEF029C598C3001B2EF4 /* Numbers.swift */; };
+		AF75DEF929CC2070001B2EF4 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF75DEF829CC2070001B2EF4 /* UserDefaultsManager.swift */; };
+		AF75DEFB29CC25C8001B2EF4 /* NotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF75DEFA29CC25C8001B2EF4 /* NotificationsManager.swift */; };
 		AFD73D2D29A73C4200AD3ACE /* chronos Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AFD73D2C29A73C4200AD3ACE /* chronos Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AFD73D3229A73C4200AD3ACE /* chronosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D3129A73C4200AD3ACE /* chronosApp.swift */; };
 		AFD73D3429A73C4200AD3ACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD73D3329A73C4200AD3ACE /* ContentView.swift */; };
@@ -70,6 +72,8 @@
 		AF75DEEB29C59525001B2EF4 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		AF75DEEE29C597C1001B2EF4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		AF75DEF029C598C3001B2EF4 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		AF75DEF829CC2070001B2EF4 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		AF75DEFA29CC25C8001B2EF4 /* NotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsManager.swift; sourceTree = "<group>"; };
 		AFD73D2629A73C4200AD3ACE /* chronos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chronos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD73D2C29A73C4200AD3ACE /* chronos Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chronos Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD73D3129A73C4200AD3ACE /* chronosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chronosApp.swift; sourceTree = "<group>"; };
@@ -159,6 +163,15 @@
 			path = viewmodel;
 			sourceTree = "<group>";
 		};
+		AF75DEF729CC2050001B2EF4 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				AF75DEF829CC2070001B2EF4 /* UserDefaultsManager.swift */,
+				AF75DEFA29CC25C8001B2EF4 /* NotificationsManager.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
 		AFD73D1F29A73C4100AD3ACE = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +196,7 @@
 		AFD73D3029A73C4200AD3ACE /* chronos Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				AF75DEF729CC2050001B2EF4 /* services */,
 				AF75DEED29C597AC001B2EF4 /* viewmodel */,
 				AF75DEE929C59500001B2EF4 /* view */,
 				AF75DEE129C59186001B2EF4 /* extensions */,
@@ -387,7 +401,9 @@
 				AF75DEF129C598C3001B2EF4 /* Numbers.swift in Sources */,
 				AF75DEEC29C59525001B2EF4 /* ButtonView.swift in Sources */,
 				AF75DEE329C5919F001B2EF4 /* FontExtension.swift in Sources */,
+				AF75DEFB29CC25C8001B2EF4 /* NotificationsManager.swift in Sources */,
 				AF75DEEF29C597C1001B2EF4 /* ViewModel.swift in Sources */,
+				AF75DEF929CC2070001B2EF4 /* UserDefaultsManager.swift in Sources */,
 				AFD73D3229A73C4200AD3ACE /* chronosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
